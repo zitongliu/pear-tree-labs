@@ -1,0 +1,115 @@
+/* body {
+    font: normal 16px Helvetica, Raleway, Arial, sans-serif;
+} */
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.hero {
+    background-color: white;
+    width: 100%;
+    min-height: 80vh;
+    margin: 3rem 0;
+}
+
+.hero h1 {
+    font-size: 7rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero__image {
+    margin: auto;
+    display: block;
+}
+
+.hero__content {
+    margin-top: 0;
+}
+
+.intro,
+.intro-two,
+.contact {
+    min-height: 300px;
+    padding: 120px 0 0 0;
+}
+
+.intro {
+    background-color: #424242;    
+}
+
+
+.intro h2,
+.intro p {
+    color: white;
+}
+
+.intro-two h2,
+.intro-two p {
+    color: #424242;
+}
+
+.intro h2,
+.intro-two h2  {
+    font-weight: 600;
+}
+
+.contain-demo {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.contact {
+    position: relative;
+    color: white;
+    background-color: #424242;
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #60D836, #a8e063);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #60D836, #a8e063); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* .contact::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.3);
+} */
+.contact h2 {
+    z-index: 2;
+
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.copyright {
+    margin: 0;
+    padding: 0;
+    padding-top: 1.5rem;
+    background-color: #424242;
+}
+
+.copyright * {
+    color: white;
+}
