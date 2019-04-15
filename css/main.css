@@ -38,29 +38,32 @@ section {
     margin-top: 0;
 }
 
-.intro,
-.intro-two {
+.intro {
     min-height: 300px;
     padding: 120px 0 0 0;
 }
 
-.intro {
-    background-color: #424242;    
+.coming-soon {
+    vertical-align: center;
+    background-color: #60D836;    
 }
 
+.coming-soon__content {
+    margin-top: 40px;
+}
 
 .intro h2,
 .intro p {
-    color: white;
-}
-
-.intro-two h2,
-.intro-two p {
     color: #424242;
 }
 
+.coming-soon h2,
+.coming-soon p {
+    color: white;
+}
+
 .intro h2,
-.intro-two h2  {
+.coming-soon h2  {
     font-weight: 600;
 }
 
@@ -126,14 +129,14 @@ section {
     position: relative;
     margin: 20px auto;
     border-radius:30%;
-    border: solid 10px darkslategray;
+    border: solid 10px white;
     overflow:hidden;
     z-index:10000;
-    box-shadow: 0 0 200px darkslategray;
+    /* box-shadow: 0 0 200px #424242; */
   }
   
   .spoke {
-    background-color: grey;
+    background-color: white;
     position: absolute;
     height: 175px;
     width:30px;
@@ -158,7 +161,7 @@ section {
   
   .cog {
     position:absolute;
-    background-color: grey;
+    background-color: white;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -183,10 +186,10 @@ section {
     height: 130px;
     margin-left: 10px;
     margin-top: 10px;
-    background-color: black;
+    background-color:#60D836;
     border-radius: 50%;
     z-index: 3000;
-    box-shadow: inset 0 0 90px darkslategray;
+    /* box-shadow: inset 0 0 90px white; */
   }
   
   @keyframes spin {
