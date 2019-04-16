@@ -1,15 +1,16 @@
-/* body {
-    font: normal 16px Helvetica, Raleway, Arial, sans-serif;
-} */
-
 h1 {
     font-weight: 700;
+
 }
 
 h2 {
     font-weight: 500;
     font-size: 5rem;
     font-weight: 600;
+}
+
+h3 {
+    font-size: 3rem;
 }
 
 section {
@@ -19,7 +20,7 @@ section {
 .hero {
     background-color: white;
     width: 100%;
-    min-height: 80vh;
+    min-height: 70vh;
     margin: 3rem 0;
 }
 
@@ -80,23 +81,17 @@ section {
     position: relative;
     color: white;
     background-color: #424242;
-    /* background: #56ab2f;  fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #60D836, #a8e063);  Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to right, #60D836, #a8e063); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
 }
 
-/* .contact::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    background-color: rgba(0, 0, 0, 0.3);
-} */
+
 .contact h2 {
     z-index: 2;
+}
 
+.contact img {
+    display: block;
+    margin: auto;
 }
 
 .background-overlay {
@@ -120,11 +115,8 @@ section {
     color: white;
 }
 
-/* body {
-    background-color: black;
-  }
-   */
-  #bod {
+
+#bod {
     width: 250px;
     height:250px;
     position: relative;
@@ -133,10 +125,9 @@ section {
     border: solid 10px white;
     overflow:hidden;
     z-index:10000;
-    /* box-shadow: 0 0 200px #424242; */
-  }
+}
   
-  .spoke {
+.spoke {
     background-color: white;
     position: absolute;
     height: 175px;
@@ -146,21 +137,21 @@ section {
     left: 50%;
     border-radius: 5px;
     z-index: 10;
-  }
+}
   
-  .spoke + .spoke {
+.spoke + .spoke {
     transform: rotateZ(45deg);
-  }
+}
   
-  .spoke + .spoke + .spoke {
+.spoke + .spoke + .spoke {
     transform: rotateZ(-45deg);
-  }
+}
   
-  .spoke + .spoke + .spoke + .spoke {
+.spoke + .spoke + .spoke + .spoke {
     transform: rotateZ(90deg);
-  }
+}
   
-  .cog {
+.cog {
     position:absolute;
     background-color: white;
     width: 150px;
@@ -168,20 +159,20 @@ section {
     border-radius: 50%;
     z-index: 10;
     animation: spin 10s infinite linear;
-  }
-  .cog + .cog {
+}
+.cog + .cog {
     animation-delay:.19s;
     animation: spin2 10s infinite linear;
     margin-top: 160px;
     margin-left:30px;
-  }
-  .cog + .cog + .cog {
+}
+.cog + .cog + .cog {
     animation: spin 10s infinite linear;
     margin-top: 65px;
     margin-left:165px;
-  }
+}
   
-  .hole {
+.hole {
     position: absolute;
     width: 130px;
     height: 130px;
@@ -190,8 +181,7 @@ section {
     background-color:#60D836;
     border-radius: 50%;
     z-index: 3000;
-    /* box-shadow: inset 0 0 90px white; */
-  }
+}
   
   @keyframes spin {
     0% {
