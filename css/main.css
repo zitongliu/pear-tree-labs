@@ -1,3 +1,8 @@
+.vh {
+    height: 0;
+    display: none;
+}
+
 h1 {
     font-weight: 700;
 
@@ -33,6 +38,7 @@ section {
 .hero__image {
     margin: auto;
     display: block;
+    max-width: 520px;
 }
 
 .hero__content {
@@ -46,7 +52,7 @@ section {
 
 .coming-soon {
     vertical-align: center;
-    background-color: #60D836;    
+    background-color: #1cae33;    
 }
 
 
@@ -80,7 +86,7 @@ section {
     padding: 80px 0 60px 0;
     position: relative;
     color: white;
-    background-color: #424242;
+    background-color: #0A0357;
     text-align: center;
 }
 
@@ -99,7 +105,7 @@ section {
     margin: 0;
     padding: 0;
     padding-top: 1.5rem;
-    background-color: #424242;
+    background-color: #0A0357;
 }
 
 .copyright * {
@@ -169,7 +175,7 @@ section {
     height: 130px;
     margin-left: 10px;
     margin-top: 10px;
-    background-color:#60D836;
+    background-color:#1cae33;
     border-radius: 50%;
     z-index: 3000;
 }
