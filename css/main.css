@@ -18,6 +18,10 @@ h3 {
     font-size: 3rem;
 }
 
+ul {
+    list-style-position: outside;
+}
+
 section {
     padding: 60px 0;
 }
@@ -180,21 +184,37 @@ section {
     z-index: 3000;
 }
   
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
+@keyframes spin {
+0% {
+    transform: rotate(0deg);
+}
+
+100% {
+    transform: rotate(360deg);
+}
+}
+@keyframes spin2 {
+0% {
+    transform: rotate(0deg);
+}
+
+100% {
+    transform: rotate(-360deg);
+}
+}
+
+
+@media (max-width: 767px) {
+    .hero__image {
+        width: 100%;
     }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h2, p {
+        text-align: center;
+    }
+}
   
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  @keyframes spin2 {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    100% {
-      transform: rotate(-360deg);
-    }
-  }
